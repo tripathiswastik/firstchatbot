@@ -1,2 +1,2 @@
 # firstchatbot
-for low number of queries
+We have made this query-based chatbot for low number of question.

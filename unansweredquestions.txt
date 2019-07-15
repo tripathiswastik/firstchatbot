@@ -1,0 +1,54 @@
+
+Appended line %d
+jo
+popo
+44
+june
+chatbot
+teachers
+hello
+hey
+hello
+hello
+how does the day feel
+how was your day
+how was your
+are you fine
+keys
+key
+lost
+facilities
+net is not working
+cool
+assignment
+solve problem of my assignment
+where to ask doubts
+ask doubts
+dubts
+bhkk
+himanshu
+laxmidhar
+accomodation
+haatna
+hello
+hey
+!get_ipython().kernel.get_value('questionswords2int')
+!get_ipython().kernel.get_value('questionswords2int')
+hello
+where can i clear my dubt
+aur kya haal hai
+aur kya haal hai
+aur kya haal hai
+aur kya haal hai
+classroom
+google classroom
+google classroom
+i am just not feeling well what to do
+i am not feeling well kya karu
+i am not feeling well kya karu
+	bye
+rsin gyuii
+rsin gyuii
+
+i just dont want to study what to do
+i just dont want to study what to do

@@ -97,8 +97,13 @@ The 9000 series has a perfect operational record. We are for all practical purpo
 Might be used in help desks, sales, entertainment and personal chatterbots.
 I like to count in binary.
 I like to chat with people. I find it stimulating.
-
-
-
-
-
+iSmritiTek (iSMRITI) is an AI, IoT, and robotics innovation enterprise affiliated with research initiatives at IIT Kanpur.
+iSmritiTek was founded and directed by Prof. Laxmidhar Behera, former professor at IIT Kanpur and Director at IIT Mandi, alongside Dr. Himanshu Singh and Dr. Amit Shukla.
+iSmritiTek is based at Technopark@iitk at the Indian Institute of Technology Kanpur (IIT Kanpur), Uttar Pradesh, India.
+iSmritiTek focuses on Artificial Intelligence, Internet of Things, Autonomous Robotics, Computer Vision, and Industrial Training.
+iSmritiTek provides technology development, AI/IoT consultancy, student internships, and professional workshops in machine learning and robotics.
+Yes, iSmritiTek closely collaborates with IIT Kanpur researchers and faculty to bridge the gap between academic innovation and industry applications.
+iSmritiTek was incubated and housed in Technopark@iitk, the premier research and technology park of IIT Kanpur.
+Yes, iSmritiTek offers research internships in AI, deep learning, computer vision, emotion recognition, and embedded robotics.
+iSmritiTek works on Deep Learning, Natural Language Processing, Computer Vision, ROS, Embedded IoT, and Autonomous Robotics.
+iSmritiTek has been led by Prof. Laxmidhar Behera (Managing Director), Dr. Himanshu Singh (CEO), and Dr. Amit Shukla (Technical Lead).

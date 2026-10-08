@@ -1,26 +1,39 @@
-# 🤖 iSMRITI — NLP Query-Based Conversational Chatbot
+# 🤖 iSMRITI — Intelligent NLP Chatbot & Virtual Assistant
 
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](https://www.python.org/)
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-green.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![NLP](https://img.shields.io/badge/NLP-TF--IDF%20%7C%20Deep%20Learning-orange.svg)](https://github.com/tripathiswastik/firstchatbot)
+[![Affiliation](https://img.shields.io/badge/Affiliation-iSmritiTek%20%7C%20Technopark%40IITK-purple.svg)](https://www.linkedin.com/company/ismrititek/)
+[![NLP Engine](https://img.shields.io/badge/NLP-TF--IDF%20%7C%20Deep%20Learning-orange.svg)](https://github.com/tripathiswastik/firstchatbot)
 [![Author](https://img.shields.io/badge/Author-Swastik%20Tripathi-blueviolet.svg)](https://github.com/tripathiswastik)
 
-An intelligent Question-Answering conversational agent designed to map user queries to knowledge-base responses using modern Natural Language Processing (NLP) and vector similarity.
+An intelligent conversational agent and question-answering assistant for **[iSmritiTek](https://www.linkedin.com/company/ismrititek/)**, a deep-tech Artificial Intelligence, IoT, and Robotics innovation firm originated and housed at **Technopark@iitk (IIT Kanpur)**.
+
+---
+
+## 🏛️ About iSmritiTek (Company Profile)
+
+**iSmritiTek** (styled as **iSMRITI**) is a research and deep-tech innovation venture associated with **IIT Kanpur**:
+- **Founding Leadership**: Founded and directed by **Prof. Laxmidhar Behera** (Poonam and Prabhu Goel Chair Professor at IIT Kanpur & Director at IIT Mandi), **Dr. Himanshu Singh** (CEO), and **Dr. Amit Shukla** (Technical Lead).
+- **Location**: Incubated at **Technopark@iitk**, Indian Institute of Technology Kanpur, India.
+- **Core Domains**: Autonomous Robotics, Computer Vision, Emotion Recognition, Embedded IoT, and Advanced Machine Learning industrial training.
+- **Collaboration**: Works closely with IIT Kanpur and national academic bodies to bridge academic AI research with enterprise industrial applications.
 
 ---
 
 ## 🌟 Key Features
 
-- **⚡ Lightweight TF-IDF Engine (`chatbot.py`)**:
-  - Pure Python standard library implementation (no heavy dependencies required).
-  - Fast cosine similarity scoring with sub-millisecond response latency.
-  - Returns answer confidence score and closest matched question.
-  - Automatically logs unhandled questions to `unansweredquestions.txt` for continuous training.
-- **🧠 Neural Network Model (`chatbot_query.py`)**:
-  - Multi-layer Keras/TensorFlow Sequential classifier with multi-hot question representations.
-  - Integrated Tkinter GUI dialog interface (`Welcome to iSMRITI Chatbot`).
-- **📁 Portable File Handling**:
-  - Dynamically detects dataset files (`question.txt`, `answer.txt`) using relative path resolution (fixing broken hardcoded desktop paths).
+- **⚡ Instant TF-IDF Engine (`chatbot.py`)**:
+  - Pure Python standard library implementation (no heavy framework overhead).
+  - Sub-millisecond response latency using mathematical vector cosine similarity.
+  - Returns real-time confidence scores and closest matched corpus question.
+  - Logs unrecognized or low-confidence queries to `unansweredquestions.txt` for continuous training.
+- **🏢 iSmritiTek Knowledge Base**:
+  - Expanded dataset with company background, research domains, IIT Kanpur affiliation, leadership, internships, and offerings.
+- **🧠 Neural Network Classifier (`chatbot_query.py`)**:
+  - Multi-hot encoded question vectors passed to a Keras sequential neural network.
+  - Interactive desktop GUI powered by Tkinter (`Welcome to iSMRITI Chatbot`).
+- **📁 Universal Portability**:
+  - Clean relative path resolution (`os.path.dirname`) ensuring compatibility across Windows, Linux, and macOS.
 
 ---
 
@@ -28,12 +41,12 @@ An intelligent Question-Answering conversational agent designed to map user quer
 
 ```text
 firstchatbot/
-├── chatbot.py                 # Fast, dependency-free TF-IDF similarity chatbot (Recommended)
-├── chatbot_query.py           # Deep Learning (Keras/TensorFlow) model with Tkinter GUI
-├── question.txt               # Knowledge base input questions dataset
-├── answer.txt                 # Knowledge base corresponding answers dataset
+├── chatbot.py                 # Fast, lightweight TF-IDF conversational engine (Recommended)
+├── chatbot_query.py           # Deep Learning Keras neural model with Tkinter GUI
+├── question.txt               # Knowledge base questions (including iSmritiTek profile)
+├── answer.txt                 # Knowledge base answers (matched 1:1 with questions)
 ├── unansweredquestions.txt    # Audit log of unrecognized queries for retraining
-├── requirements.txt           # Optional deep learning dependencies
+├── requirements.txt           # Dependencies for the optional deep learning model
 ├── LICENSE                    # GNU General Public License v3.0
 └── README.md                  # Project documentation
 ```
@@ -42,9 +55,7 @@ firstchatbot/
 
 ## 🚀 Quick Start Guide
 
-### Option 1: Run Lightweight Engine (Instant — No Installation Required)
-Run out-of-the-box using standard Python:
-
+### 1. Run Lightweight Engine (Instant — No Installation Required)
 ```bash
 python chatbot.py
 ```
@@ -54,40 +65,33 @@ python chatbot.py
 ============================================================
          🤖 iSMRITI AI Chatbot (TF-IDF NLP Engine)
 ============================================================
-Loaded 99 question-answer pairs successfully!
+Loaded 109 question-answer pairs successfully!
 
-You: What is AI?
-ChatBot: Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think.
-         [Confidence: 100.0% | Match: 'What is AI?']
+You: What is iSmritiTek?
+ChatBot: iSmritiTek (iSMRITI) is an AI, IoT, and robotics innovation enterprise affiliated with research initiatives at IIT Kanpur.
+         [Confidence: 100.0% | Match: 'What is iSmritiTek?']
 
-You: Are you sentient?
-ChatBot: By the strictest dictionary definition of the word 'sentience', I may be
-         [Confidence: 100.0% | Match: 'Are you sentient?']
+You: Where is iSmritiTek located?
+ChatBot: iSmritiTek is based at Technopark@iitk at the Indian Institute of Technology Kanpur (IIT Kanpur), Uttar Pradesh, India.
+         [Confidence: 100.0% | Match: 'Where is iSmritiTek located?']
+
+You: Does iSmritiTek provide internships?
+ChatBot: Yes, iSmritiTek offers research internships in AI, deep learning, computer vision, emotion recognition, and embedded robotics.
+         [Confidence: 100.0% | Match: 'Does iSmritiTek provide internships?']
 ```
 
 ---
 
-### Option 2: Run Deep Learning Model with GUI (`chatbot_query.py`)
+### 2. Run Deep Learning Model with GUI (`chatbot_query.py`)
 
-If you want to train the Keras neural network and open the Tkinter GUI:
-
-1. **Install dependencies:**
+1. Install optional libraries:
    ```bash
    pip install -r requirements.txt
    ```
-2. **Launch GUI:**
+2. Launch desktop GUI:
    ```bash
    python chatbot_query.py
    ```
-
----
-
-## 📊 How It Works
-
-1. **Text Normalization**: Expands common contractions (e.g., `what's` $\rightarrow$ `what is`), converts text to lowercase, and strips extraneous punctuation.
-2. **Vector Space Encoding**: Computes term frequency and inverse document frequency (TF-IDF) across the corpus.
-3. **Similarity Scoring**: Calculates cosine similarity against all known question vectors.
-4. **Fallback Mechanism**: Queries with confidence below threshold are logged to `unansweredquestions.txt` to help developers expand the bot's knowledge base.
 
 ---
 

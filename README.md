@@ -2,11 +2,11 @@
 
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](https://www.python.org/)
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-green.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Affiliation](https://img.shields.io/badge/Affiliation-iSmritiTek%20%7C%20Technopark%40IITK-purple.svg)](https://www.linkedin.com/company/ismrititek/)
+[![Affiliation](https://img.shields.io/badge/Affiliation-iSmritiTek%20%7C%20Technopark%40IITK-purple.svg)](https://github.com/tripathiswastik/firstchatbot)
 [![NLP Engine](https://img.shields.io/badge/NLP-TF--IDF%20%7C%20Deep%20Learning-orange.svg)](https://github.com/tripathiswastik/firstchatbot)
 [![Author](https://img.shields.io/badge/Author-Swastik%20Tripathi-blueviolet.svg)](https://github.com/tripathiswastik)
 
-An intelligent conversational agent and question-answering assistant for **[iSmritiTek](https://www.linkedin.com/company/ismrititek/)**, a deep-tech Artificial Intelligence, IoT, and Robotics innovation firm originated and housed at **Technopark@iitk (IIT Kanpur)**.
+An intelligent conversational agent and question-answering assistant for **iSmritiTek**, a deep-tech Artificial Intelligence, IoT, and Robotics innovation firm originated and housed at **Technopark@iitk (IIT Kanpur)**.
 
 ---
 

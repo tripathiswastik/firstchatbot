@@ -14,11 +14,14 @@ import re
 ########## PART 1 - DATA PREPROCESSING ##########
  
  
-#OPENING SYNTHETIC FILES
+import os
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+questions_path = os.path.join(BASE_DIR, 'question.txt')
+answers_path = os.path.join(BASE_DIR, 'answer.txt')
 
-questions = open('/Users/aviral/Desktop/questions.txt', encoding = 'utf-8', errors = 'ignore').read().split('\n')
-answers= open('/Users/aviral/Desktop/answers.txt', encoding = 'utf-8', errors = 'ignore').read().split('\n')
+questions = open(questions_path, encoding='utf-8', errors='ignore').read().split('\n')
+answers = open(answers_path, encoding='utf-8', errors='ignore').read().split('\n')
  
 
  

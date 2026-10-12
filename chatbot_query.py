@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Thu Jul 11 12:01:37 2019
-
-@author: aviral,swastik,bharat,priyanshu
+Python Version: 3.8+ (Target: Python 3.8, 3.9, 3.10, 3.11, 3.12)
+Purpose: Sequence preprocessing and word-embedding conversational retrieval query module for chatbot training data.
+Runs-in: Python runtime environment with NumPy.
 """
 
 import numpy as np

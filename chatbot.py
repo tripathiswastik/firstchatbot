@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Smart TF-IDF & Cosine Similarity Lightweight Chatbot Engine
-Requires zero heavyweight dependencies (pure Python standard library).
+Python Version: 3.8+ (Target: Python 3.8, 3.9, 3.10, 3.11, 3.12)
+Purpose: Smart TF-IDF and Cosine Similarity conversational chatbot engine with zero external dependencies.
+Runs-in: Cross-platform command-line shell, interactive terminal, or background Python service.
 """
 
 import math

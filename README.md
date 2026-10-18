@@ -129,3 +129,10 @@ ChatBot: Yes, iSmritiTek offers research internships in AI, deep learning, compu
 ## 📄 License
 
 This repository is licensed under the [GNU General Public License v3.0](LICENSE).
+
+
+---
+
+## 🏷️ Repository Metadata & Topic Tags
+- **Core Topics**: `nlp` `chatbot` `dialog-systems` `intent-recognition` `ai-agents` `python`
+- **Governance**: Follows [Antigravity AI Rules](file:///d:/ag-ai/.agents/rules/antigravity-rules.md) and [Multi-Agent SDLC Contracts](file:///d:/ag-ai/.agents/rules/multi-agent-prompts.md).
